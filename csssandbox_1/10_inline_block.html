@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Inline & Block Styling</title>
+    <style>
+        body {
+            border: 1px solid red;
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            display: inline;
+        }
+
+        li a {
+            padding-right: 20px;
+        }
+
+        img {
+            display: block;
+            margin: auto;
+        }
+
+        .box {
+            display: inline-block;
+            box-sizing: border-box;
+            width: 33.1%;
+            background: #f4f4f4;
+            padding: 20px;
+            border: 1px solid red;
+
+
+        }
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#">Technology</a></li>
+        <li><a href="#">Business</a></li>
+        <li><a href="#">Fashion</a></li>
+    </ul>
+
+    <br><br>
+
+    <img src="img/leaf.png" alt="My image">
+    <img src="img/leaf.png" alt="My image">
+    <br><br>
+    <div class="container">
+        <div class="box">
+            <h3>Heading</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi iusto laborum optio. Corporis dolorum
+                fuga
+                illo iste molestiae similique voluptas?
+            </p>
+        </div>
+        <div class="box">
+            <h3>Heading</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi iusto laborum optio. Corporis dolorum
+                fuga
+                illo iste molestiae similique voluptas?
+            </p>
+        </div>
+        <div class="box">
+            <h3>Heading</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi iusto laborum optio. Corporis dolorum
+                fuga
+                illo iste molestiae similique voluptas?
+            </p>
+        </div>
+    </div>
+</body>
+</html>

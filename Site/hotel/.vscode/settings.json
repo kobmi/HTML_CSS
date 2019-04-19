@@ -1,0 +1,10 @@
+{
+    "editor.fontSize": 18,
+    "files.autoSave": "afterDelay",
+    "editor.autoClosingBrackets": "always",
+    "editor.autoClosingQuotes": "always",
+    "editor.codeInsets": true,
+    "editor.mouseWheelZoom": true,
+    "editor.tabCompletion": "on",
+    "html.format.wrapLineLength": 100
+}
